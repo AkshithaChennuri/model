@@ -1,0 +1,21 @@
+.container{
+    width:80%;
+    padding:20px;
+    margin: auto;
+}
+.item-1,.item-2,.item-3,.item-4{
+    width: 200px;
+    display:inline-block;
+}
+img{
+    width:100%;
+}
+h3{
+    padding:5px;
+}
+p{
+    padding:5px;
+}
+button{
+    width:100%;
+}
