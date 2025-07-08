@@ -151,7 +151,12 @@ nav{
       padding: 10px 20px;
       border-radius: 4px;
 }
-.project{
-    font-size: 15px;
-    padding: 5px;
+.Projects{
+    scroll-behavior: smooth
+}
+.About{
+    scroll-behavior: smooth
+}
+.Contact{
+    scroll-behavior: smooth
 }
