@@ -1,66 +1,32 @@
-* {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      background-color: #f0f0f0;
-      font-family: Arial, sans-serif;
-    }
-
-    .container {
-      width: 70%;
-      margin: 30px auto;
-      border: 10 solid black;
-    }
-
-    .item {
-      position: relative;
-      display: inline-block;
-      width: 300px;
-      margin: 10px;
-      border-radius: 5px;
-      overflow: hidden;
-    }
-
-    .item img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    .item p {
-      position: absolute;
-      top: 5px;
-      left: 10px;
-      background-color: black;
-      color: white;
-      padding: 5px 10px;
-      font-size: 14px;
-      border-radius: 3px;
-    }
-
-
-.container-1{
-    width:80%;
-    padding:20px;
-    margin: auto;
-}
-.item-1,.item-2,.item-3,.item-4{
-    width: 200px;
-    display:inline-block;
+h1{
+    border: 0cap;
+    color: aqua;
 }
 img{
+    width: 200px;
+    border-radius: 50%;
+}
+table{
+    background-color:brown;
+    height: 1%;
     width:100%;
-    padding: 10px;
+
 }
-h3{
-    padding:10px;
+h2 {
+    background-color: #f0f8ff; /* AliceBlue or any preferred color */
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
 }
+body{
+    background-color: lightslategray;
+}
+
 p{
-    padding:10px;
+    color:yellowgreen;
+    background-color:
 }
-button{
-    width:100%;
+div{
+    background-color: turquoise;
+
 }
