@@ -1,32 +1,27 @@
-h1{
-    border: 0cap;
-    color: aqua;
+.container{
+    display: flex;
+    border: 2px solid black;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 30px;
+    height: 300px;
+}
+.item{
+    text-align: center;
+    padding: 5px;
+    transition: 0.3s ease;
 }
 img{
     width: 200px;
-    border-radius: 50%;
-}
-table{
-    background-color:brown;
-    height: 1%;
-    width:100%;
-
-}
-h2 {
-    background-color: #f0f8ff; /* AliceBlue or any preferred color */
-    padding: 6px 10px;
+    height: 150px;
     border-radius: 5px;
-    font-family: Arial, sans-serif;
 }
-body{
-    background-color: lightslategray;
+.item-1,.item-3,.item-5{
+    align-self: flex-start;
 }
-
-p{
-    color:yellowgreen;
-    background-color:
+.item-2,.item-4{
+    align-self: flex-end;
 }
-div{
-    background-color: turquoise;
-
+.item:hover{
+    transform: scale(1.1);
 }
